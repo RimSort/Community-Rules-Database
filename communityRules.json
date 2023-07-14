@@ -1,5 +1,5 @@
 {
-    "timestamp": 1687831181,
+    "timestamp": 1689375594,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -8376,15 +8376,6 @@
                 "vanillaexpanded.vtexe": {
                     "name": [
                         "Vanilla Textures Expanded"
-                    ]
-                }
-            }
-        },
-        "shut.the.har.up": {
-            "loadAfter": {
-                "rim.job.world": {
-                    "name": [
-                        ""
                     ]
                 }
             }
