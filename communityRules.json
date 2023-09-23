@@ -11269,8 +11269,42 @@
                 "owlchemist.windows":{
                     "name":["Windows"]
                 },
-                "dubwise.dubsbadhygiene"{
+                "dubwise.dubsbadhygiene":{
                     "name":["Dubs Bad Hygiene"]
+                }
+            }
+        },
+        "funkyshit.mods.worldedit": {
+            "loadBefore":{
+                "m00nl1ght.geologicallandforms":{
+                    "name":["Geological Landforms"]
+                },
+                "funkyshit.mods.worldedit.geologicallandforms":{
+                    "name":["WorldEdit 2.0 - Geological landforms compatibility"]
+                }
+            }
+        },
+        "funkyshit.mods.worldedit.geologicallandforms": {
+            "loadAfter":{
+                "m00nl1ght.geologicallandforms":{
+                    "name":["Geological Landforms"]
+                }
+            }
+        },
+        "funkyshit.mods.worldedit.rimcities": {
+            "loadAfter":{
+                "funkyshit.mods.worldedit":{
+                    "name":["WorldEdit 2.0"]
+                },
+                "cabbage.rimcities":{
+                    "name":["RimCities"]
+                }
+            }
+        },
+        "cabbage.rimcities":{
+            "loadBefore":{
+                "funkyshit.mods.worldedit":{
+                    "name":["WorldEdit 2.0"]
                 }
             }
         }
