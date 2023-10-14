@@ -1,5 +1,5 @@
 {
-    "timestamp": 1689375594,
+    "timestamp": 1697255174,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -2017,9 +2017,8 @@
         "deon.royaltytexturesexpanded": {
             "loadAfter": {
                 "vanillaexpanded.vtexe": {
-                    "name": [
-                        "Vanilla Textures Expanded"
-                    ]
+                    "comment": "Should go after Vanilla Textures Expanded to prevent having it's textures replaced by that mods textures",
+                    "name": "Vanilla Textures Expanded"
                 }
             }
         },
@@ -3450,6 +3449,48 @@
                         "DocWorld"
                     ]
                 }
+            },
+            "loadAfter": {
+                "legodude17.vfemechscp": {
+                    "comment": "Should go after Vanilla Factions Expanded rules so it interacts correctly with their terrain types",
+                    "name": "Vanilla Factions Expanded - Mechanoids - Auto-Mortar Shell Choice Patch"
+                },
+                "oskarpotocki.vanillafactionsexpanded.medievalmodule": {
+                    "comment": "Should go after Vanilla Factions Expanded rules so it interacts correctly with their terrain types",
+                    "name": "Vanilla Factions Expanded - Medieval"
+                },
+                "oskarpotocki.vanillafactionsexpanded.settlersmodule": {
+                    "comment": "Should go after Vanilla Factions Expanded rules so it interacts correctly with their terrain types",
+                    "name": "Vanilla Factions Expanded - Settlers"
+                },
+                "oskarpotocki.vfe.deserters": {
+                    "comment": "Should go after Vanilla Factions Expanded rules so it interacts correctly with their terrain types",
+                    "name": "Vanilla Factions Expanded - Deserters"
+                },
+                "oskarpotocki.vfe.empire": {
+                    "comment": "Should go after Vanilla Factions Expanded rules so it interacts correctly with their terrain types",
+                    "name": "Vanilla Factions Expanded - Empire"
+                },
+                "oskarpotocki.vfe.insectoid": {
+                    "comment": "Should go after Vanilla Factions Expanded rules so it interacts correctly with their terrain types",
+                    "name": "Vanilla Factions Expanded - Insectoids"
+                },
+                "oskarpotocki.vfe.mechanoid": {
+                    "comment": "Should go after Vanilla Factions Expanded rules so it interacts correctly with their terrain types",
+                    "name": "Vanilla Factions Expanded - Mechanoids"
+                },
+                "oskarpotocki.vfe.pirates": {
+                    "comment": "Should go after Vanilla Factions Expanded rules so it interacts correctly with their terrain types",
+                    "name": "Vanilla Factions Expanded - Pirates"
+                },
+                "oskarpotocki.vfe.vikings": {
+                    "comment": "Should go after Vanilla Factions Expanded rules so it interacts correctly with their terrain types",
+                    "name": "Vanilla Factions Expanded - Vikings"
+                },
+                "vanillaexpanded.vfea": {
+                    "comment": "Should go after Vanilla Factions Expanded rules so it interacts correctly with their terrain types",
+                    "name": "Vanilla Factions Expanded - Ancients"
+                }
             }
         },
         "jangodsoul.simplestorage": {
@@ -4874,6 +4915,14 @@
                     "name": [
                         "Retextured Apparel"
                     ]
+                },
+                "vanillaexpanded.vtexe": {
+                    "comment": "Should be loaded after Vanilla Textures Expanded so that it's textures are not overwritten by that mod's textures",
+                    "name": "Vanilla Textures Expanded"
+                },
+                "vanillaexpanded.vtexe.sos2": {
+                    "comment": "Should be loaded after Vanilla Textures Expanded so that it's textures are not overwritten by that mod's textures",
+                    "name": "Vanilla Textures Expanded - Save Our Ship 2"
                 }
             }
         },
@@ -6130,6 +6179,16 @@
                     "name": [
                         ""
                     ]
+                }
+            },
+            "loadBefore": {
+                "vanillaexpanded.vaeaccessories": {
+                    "comment": "Should go very early in the mod list, above most other Vanilla Expanded mods",
+                    "name": "Vanilla Apparel Expanded \u2014 Accessories"
+                },
+                "vanillaexpanded.vappe": {
+                    "comment": "Should go very early in the mod list, above most other Vanilla Expanded mods",
+                    "name": "Vanilla Apparel Expanded"
                 }
             }
         },
@@ -10103,6 +10162,10 @@
                         "D9 Framework"
                     ]
                 },
+                "kentington.saveourship2": {
+                    "comment": "Should be loaded after SOS2 so that it does not interfere with allow tool patching.",
+                    "name": "Save Our Ship 2"
+                },
                 "unlimitedhugs.hugslib": {
                     "name": [
                         "HugsLib"
@@ -10251,6 +10314,12 @@
                     "name": [
                         ""
                     ]
+                }
+            },
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
                 }
             }
         },
@@ -11234,6 +11303,180 @@
                     "name": [
                         "Herd Migration Revival(revived)"
                     ]
+                }
+            }
+        },
+        "automatic.bionicicons": {
+            "loadAfter": {
+                "vanillaexpanded.vtexe": {
+                    "comment": "This should load after Vanilla Textures Expanded in order to avoid having it's textures replaced by that mods textures",
+                    "name": "Vanilla Textures Expanded"
+                }
+            }
+        },
+        "smashphil.srtsexpanded": {
+            "loadAfter": {
+                "ludeon.rimworld.biotech": {
+                    "comment": "This should at least go after Rimworld and the DLC, even if it is supposed to go in before Hugslib",
+                    "name": "RimWorld - Biotech"
+                }
+            },
+            "loadBefore": {
+                "unlimitedhugs.hugslib": {
+                    "comment": "This mod reportedly has issues if it is loaded after Hugslib. No real explanation is provided by the author. Possibly some kind of custom patching/mirroring?",
+                    "name": "HugsLib"
+                }
+            }
+        },
+        "vanillaexpanded.vee": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "mory.vapsos": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.vbookse": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.vcookesushi": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "oskarpotocki.vfe.vikings": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.vfeart": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.vfefarming": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.vfemedical": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.vfespacer": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.vhe": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.viehar": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.viesas": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.vanillasocialinteractionsexpanded": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vse.empressevil": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vse.neronneolithic": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vse.perrypersistent": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.vanillatradingexpanded": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.vweg": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Should go after vanilla expanded framework, as it relies on it.",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "syrchalis.processor.framework": {
+            "loadBefore": {
+                "dubwise.dubsmintmenus": {
+                    "comment": "Should be loaded before Dubs Mint Menus so that it doesn't break that mods ptaching",
+                    "name": "Dubs Mint Menus"
                 }
             }
         }
