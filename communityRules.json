@@ -8216,13 +8216,6 @@
             }
         },
         "shavius.dynamicdiplomacy.zh": {
-            "loadBefore": {
-                "nilchei.dynamicdiplomacy": {
-                    "name": [
-                        "Dynamic Diplomacy"
-                    ]
-                }
-            },
             "loadAfter": {
                 "nilchei.dynamicdiplomacy": {
                     "comment": [
