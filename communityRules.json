@@ -1966,12 +1966,6 @@
                     "name": [
                         "AI Upscaled Textures - Core"
                     ]
-                },
-                "vanillaexpanded.vtexe":{
-                    "name":["Vanilla Textures Expanded"]
-                },
-                "vanillaexpanded.vtexvariations":{
-                    "name":["Vanilla Textures Expanded - Variations"]
                 }
             }
         },
@@ -6140,16 +6134,6 @@
             }
         },
         "oskarpotocki.vanillafactionsexpanded.medievalmodule": {
-            "loadBefore": {
-                "dankpyon.medieval.overhaul": {
-                    "name": [
-                        "Medieval Overhaul"
-                    ],
-                    "comment": [
-                        "source: perfect medieval playthrough"
-                    ]
-                }
-            },
             "loadAfter": {
                 "codyspring.vtexeme": {
                     "name": [
@@ -11243,68 +11227,6 @@
                     "name": [
                         "Herd Migration Revival(revived)"
                     ]
-                }
-            }
-        },
-        "adamas.perfectmedievalplaythrough": {
-            "loadBefore": {
-                "ogam.rimedieval": {
-                    "name": ["Rimedieval"
-                    ]
-                }
-            },
-            "loadAfter": {
-                "dankpyon.medieval.overhaul": {
-                    "name": ["Medieval Overhaul"]
-                },
-                "mlie.apothecary":{
-                    "name": ["Apothecary (Continued)"]
-                },
-                "oskarpotocki.vanillafactionsexpanded.medievalmodule":{
-                    "name":["Vanilla Factions Expanded - Medieval"]
-                },
-                "vanillaexpanded.vcef":{
-                    "name":["Vanilla Fishing Expanded"]
-                },
-                "owlchemist.windows":{
-                    "name":["Windows"]
-                },
-                "dubwise.dubsbadhygiene":{
-                    "name":["Dubs Bad Hygiene"]
-                }
-            }
-        },
-        "funkyshit.mods.worldedit": {
-            "loadBefore":{
-                "m00nl1ght.geologicallandforms":{
-                    "name":["Geological Landforms"]
-                },
-                "funkyshit.mods.worldedit.geologicallandforms":{
-                    "name":["WorldEdit 2.0 - Geological landforms compatibility"]
-                }
-            }
-        },
-        "funkyshit.mods.worldedit.geologicallandforms": {
-            "loadAfter":{
-                "m00nl1ght.geologicallandforms":{
-                    "name":["Geological Landforms"]
-                }
-            }
-        },
-        "funkyshit.mods.worldedit.rimcities": {
-            "loadAfter":{
-                "funkyshit.mods.worldedit":{
-                    "name":["WorldEdit 2.0"]
-                },
-                "cabbage.rimcities":{
-                    "name":["RimCities"]
-                }
-            }
-        },
-        "cabbage.rimcities":{
-            "loadBefore":{
-                "funkyshit.mods.worldedit":{
-                    "name":["WorldEdit 2.0"]
                 }
             }
         }
