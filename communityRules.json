@@ -1,5 +1,5 @@
 {
-    "timestamp": 1689375594,
+    "timestamp": 1702767089,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11227,6 +11227,30 @@
                     "name": [
                         "Herd Migration Revival(revived)"
                     ]
+                }
+            }
+        },
+        "funkyshit.mods.worldedit.rimcities": {
+            "loadAfter": {
+                "cabbage.rimcities": {
+                    "comment": "This is a patch for Rimcities, thus it should be loaded after Rimcities.",
+                    "name": "RimCities"
+                },
+                "funkyshit.mods.worldedit": {
+                    "comment": "This is a patch for WE, thus it should be loaded after WE.",
+                    "name": "WorldEdit 2.0"
+                }
+            }
+        },
+        "funkyshit.mods.worldedit.geologicallandforms": {
+            "loadAfter": {
+                "funkyshit.mods.worldedit": {
+                    "comment": "This is a patch for WE, thus it should be loaded after WE.",
+                    "name": "WorldEdit 2.0"
+                },
+                "m00nl1ght.geologicallandforms": {
+                    "comment": "This is a patch for Geological Landforms, thus it should be loaded after Geological Landforms.",
+                    "name": "Geological Landforms"
                 }
             }
         }
