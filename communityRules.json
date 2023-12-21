@@ -1,5 +1,5 @@
 {
-    "timestamp": 1702767089,
+    "timestamp": 1703171564,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11251,6 +11251,18 @@
                 "m00nl1ght.geologicallandforms": {
                     "comment": "This is a patch for Geological Landforms, thus it should be loaded after Geological Landforms.",
                     "name": "Geological Landforms"
+                }
+            }
+        },
+        "reel.facialanims": {
+            "loadBefore": {
+                "oppey.eyegenes2": {
+                    "comment": "This is according to Reel's Steampage. Possibly because eye colors are loaded after the facial expression?",
+                    "name": "[BT] EyeGenes2 | Base - [NL] Facial Animation |"
+                },
+                "vanillaexpanded.vtexe.facialanims": {
+                    "comment": "This is according to Reel's steampage.",
+                    "name": "Vanilla Textures Expanded - [NL] Facial Animation"
                 }
             }
         }
