@@ -11257,11 +11257,11 @@
         "reel.facialanims": {
             "loadBefore": {
                 "oppey.eyegenes2": {
-                    "comment": "This is according to Reel's Steampage. Possibly because eye colors are loaded after the facial expression?",
+                    "comment": "This is according to Reel's Steampage. There is a MayRequire patch EyeGenes in Reel's mod.",
                     "name": "[BT] EyeGenes2 | Base - [NL] Facial Animation |"
                 },
                 "vanillaexpanded.vtexe.facialanims": {
-                    "comment": "This is according to Reel's steampage.",
+                    "comment": "This is according to Reel's steampage. Loading this after this mod causes the blinking animations to flicker.",
                     "name": "Vanilla Textures Expanded - [NL] Facial Animation"
                 }
             }
