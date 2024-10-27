@@ -1,5 +1,5 @@
 {
-    "timestamp": 1730061757,
+    "timestamp": 1730063023,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11275,6 +11275,18 @@
             },
             "loadBottom": {
                 "comment": "Performance mods generally do better, when loaded later.",
+                "value": true
+            }
+        },
+        "dubwise.dubsperformanceanalyzer.steam": {
+            "loadBefore": {
+                "krkr.rocketman": {
+                    "comment": "Rocketman always last!",
+                    "name": "RocketMan - Performance Mod"
+                }
+            },
+            "loadBottom": {
+                "comment": "Performance mods generally have the most impact when loaded last.",
                 "value": true
             }
         }
