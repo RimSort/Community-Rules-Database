@@ -1,5 +1,5 @@
 {
-    "timestamp": 1703171564,
+    "timestamp": 1730061757,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11264,6 +11264,18 @@
                     "comment": "This is according to Reel's steampage. Loading this after this mod causes the blinking animations to flicker.",
                     "name": "Vanilla Textures Expanded - [NL] Facial Animation"
                 }
+            }
+        },
+        "taranchuk.performanceoptimizer": {
+            "loadBefore": {
+                "krkr.rocketman": {
+                    "comment": "Rocketman always last!",
+                    "name": "RocketMan - Performance Mod"
+                }
+            },
+            "loadBottom": {
+                "comment": "Performance mods generally do better, when loaded later.",
+                "value": true
             }
         }
     }
