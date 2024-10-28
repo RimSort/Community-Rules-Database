@@ -1,5 +1,5 @@
 {
-    "timestamp": 1730063023,
+    "timestamp": 1730124378,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11288,6 +11288,14 @@
             "loadBottom": {
                 "comment": "Performance mods generally have the most impact when loaded last.",
                 "value": true
+            }
+        },
+        "bs.fishery": {
+            "loadAfter": {
+                "zetrith.prepatcher": {
+                    "comment": "Prepatcher contains harmony, so fishery should be loaded after.",
+                    "name": "Prepatcher"
+                }
             }
         }
     }
