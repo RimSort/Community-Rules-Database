@@ -1,5 +1,7 @@
 {
+
     "timestamp": 1726659082,
+
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -8139,6 +8141,10 @@
                         "Anima Animals - Community Pack"
                     ]
                 }
+            },
+            "loadBottom": {
+                "comment": "recommendation from the OP",
+                "value": true
             }
         },
         "sf.grim.reality": {
