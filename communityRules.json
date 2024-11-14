@@ -1,5 +1,7 @@
 {
-    "timestamp": 1721412083,
+
+    "timestamp": 1726659082,
+
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11267,6 +11269,82 @@
                 "vanillaexpanded.vtexe.facialanims": {
                     "comment": "This is according to Reel's steampage. Loading this after this mod causes the blinking animations to flicker.",
                     "name": "Vanilla Textures Expanded - [NL] Facial Animation"
+                }
+            }
+        },
+        "yanzihko.yzrcm": {
+            "loadBefore": {
+                "yanzihko.bdfp": {
+                    "comment": "Framework dependency",
+                    "name": "Braixen and Delphox - Fire Pokemon [1.5]"
+                },
+                "yanzihko.eespm": {
+                    "comment": "Framework dependency",
+                    "name": "Eeveelutions - Espeon Module [1.5]"
+                },
+                "yanzihko.eevem": {
+                    "comment": "Framework dependency",
+                    "name": "Eeveelutions - Eevee Module [1.5]"
+                },
+                "yanzihko.eflarm": {
+                    "comment": "Framework dependency",
+                    "name": "Eeveelutions - Flareon Module [1.5]"
+                },
+                "yanzihko.eglacm": {
+                    "comment": "Framework dependency",
+                    "name": "Eeveelutions - Glaceon Module [1.5]"
+                },
+                "yanzihko.ejoltm": {
+                    "comment": "Framework dependency",
+                    "name": "Eeveelutions - Jolteon Module [1.5]"
+                },
+                "yanzihko.eleafm": {
+                    "comment": "Framework dependency",
+                    "name": "Eeveelutions - Leafeon Module [1.5]"
+                },
+                "yanzihko.esylvm": {
+                    "comment": "Framework dependency",
+                    "name": "Eeveelutions - Sylveon Module [1.5]"
+                },
+                "yanzihko.eumbm": {
+                    "comment": "Framework dependency",
+                    "name": "Eeveelutions - Umbreon Module [1.5]"
+                },
+                "yanzihko.evapm": {
+                    "comment": "Framework dependency",
+                    "name": "Eeveelutions - Vaporeon Module [1.5]"
+                },
+                "yanzihko.ffr": {
+                    "comment": "Framework dependency",
+                    "name": "Feles - Felines of the Rim [1.5]"
+                },
+                "yanzihko.gfp": {
+                    "comment": "Framework dependency",
+                    "name": "Gardevoir - Fairy Pokemon [1.5]"
+                },
+                "yanzihko.ibdfpa": {
+                    "comment": "Framework dependency",
+                    "name": "Icephox - Braixen and Delphox Addon [1.5]"
+                },
+                "yanzihko.kfls": {
+                    "comment": "Framework dependency",
+                    "name": "Kisalfar and Fress\u00e1lfar - Lost Project [1.5]"
+                },
+                "yanzihko.ldw": {
+                    "comment": "Framework dependency",
+                    "name": "Lombax - Desert Warriors [1.5]"
+                },
+                "yanzihko.mmp": {
+                    "comment": "Framework dependency",
+                    "name": "Meowstic - Mystic Pokemon [1.5]"
+                },
+                "yanzihko.vaf": {
+                    "comment": "Framework dependency",
+                    "name": "Vulpes - Adorable Foxes [1.5]"
+                },
+                "yanzihko.zip": {
+                    "comment": "Framework dependency",
+                    "name": "Zoroark - Illusion Pokemon [1.5]"
                 }
             }
         }
