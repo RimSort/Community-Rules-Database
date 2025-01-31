@@ -1,7 +1,5 @@
 {
-
-    "timestamp": 1735715266,
-
+    "timestamp": 1738341973,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -1517,6 +1515,14 @@
                     "name": [
                         "Vanilla Factions Expanded - Classical"
                     ]
+                }
+            }
+        },
+        "chad.highqualitytextures1.5": {
+            "loadAfter": {
+                "vanillaexpanded.vtexe": {
+                    "comment": "Error during loading -> black screen",
+                    "name": "Vanilla Textures Expanded"
                 }
             }
         },
@@ -11377,6 +11383,22 @@
                 "biomesteam.oasis": {
                     "comment": "Breaks World Generation and World Loading in general if this is loaded prior to the various Biomes! mods.",
                     "name": "Biomes! Oasis"
+                }
+            }
+        },
+        "vanillaexpanded.vfeart": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Dependance On Vanilla Expanded Framework",
+                    "name": "Vanilla Expanded Framework"
+                }
+            }
+        },
+        "vanillaexpanded.vanillasocialinteractionsexpanded": {
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "Dependance On Vanilla Expanded Framework",
+                    "name": "Vanilla Expanded Framework"
                 }
             }
         }
