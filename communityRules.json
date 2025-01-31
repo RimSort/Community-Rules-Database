@@ -1518,6 +1518,14 @@
                 }
             }
         },
+        "chad.highqualitytextures1.5": {
+            "loadAfter": {
+                "vanillaexpanded.vtexe": {
+                    "comment": "Error during loading -> black screen",
+                    "name": "Vanilla Textures Expanded"
+                }
+            }
+        },
         "chaeren.sizedapparel": {
             "loadAfter": {
                 "rim.job.world": {
@@ -11270,7 +11278,6 @@
                 }
             }
         },
-
         "taranchuk.performanceoptimizer": {
             "loadBefore": {
                 "krkr.rocketman": {
@@ -11376,6 +11383,38 @@
                 "yanzihko.zip": {
                     "comment": "Framework dependency",
                     "name": "Zoroark - Illusion Pokemon [1.5]"
+                }
+            }
+        },
+        "telardo.multifloors": {
+            "loadAfter": {
+                "vanillaexpanded.vtexe": {
+                    "comment": "Vanilla Textures Expanded breaks the Floors tab UI if MultiFloors is loaded before VTE.",
+                    "name": "Vanilla Textures Expanded"
+                }
+            }
+        },
+        "oskarpotocki.vanillavehiclesexpanded": {
+            "loadAfter": {
+                "biomesteam.biomescaverns": {
+                    "comment": "Breaks World Generation and World Loading in general if this is loaded prior to the various Biomes! mods.",
+                    "name": "Biomes! Caverns"
+                },
+                "biomesteam.biomescore": {
+                    "comment": "Breaks World Generation and World Loading in general if this is loaded prior to the various Biomes! mods.",
+                    "name": "Biomes! Core"
+                },
+                "biomesteam.biomesfossils": {
+                    "comment": "Breaks World Generation and World Loading in general if this is loaded prior to the various Biomes! mods.",
+                    "name": "Biomes! Fossils"
+                },
+                "biomesteam.biomesislands": {
+                    "comment": "Breaks World Generation and World Loading in general if this is loaded prior to the various Biomes! mods.",
+                    "name": "Biomes! Islands"
+                },
+                "biomesteam.oasis": {
+                    "comment": "Breaks World Generation and World Loading in general if this is loaded prior to the various Biomes! mods.",
+                    "name": "Biomes! Oasis"
                 }
             }
         }
