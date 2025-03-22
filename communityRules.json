@@ -8,7 +8,7 @@
                         "Glitter Tech"
                     ]
                 }
-            }
+            }c
         },
         "MOFSLBLECN209.rimfacehforhfacialhstuffh1v0": {
             "loadBefore": {
@@ -6114,16 +6114,6 @@
                     ],
                     "name": [
                         "Vanilla Weapons Expanded"
-                    ]
-                }
-            }
-        },
-        "oskarpotocki.vfe.insectoid": {
-            "loadBefore": {
-                "ceteam.combatextended": {
-                    "name": [
-                        "Combat Extended",
-                        "Combat Extended (Unofficial)"
                     ]
                 }
             }
