@@ -1,5 +1,5 @@
 {
-    "timestamp": 1738341470,
+    "timestamp": 1742626032,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -796,12 +796,6 @@
         },
         "atlas.androidtiers": {
             "loadAfter": {
-                "ceteam.combatextended": {
-                    "name": [
-                        "Combat Extended",
-                        "Combat Extended (Unofficial)"
-                    ]
-                },
                 "moloy559.moloytraits": {
                     "name": [
                         "Moloy Traits"
@@ -1473,47 +1467,6 @@
                     ],
                     "name": [
                         "Glitter Tech"
-                    ]
-                }
-            }
-        },
-        "ceteam.combatextended": {
-            "loadBefore": {
-                "dylan.animalgear": {
-                    "name": [
-                        "Animal Gear"
-                    ]
-                }
-            },
-            "loadAfter": {
-                "vanillaexpanded.vaeaccessories": {
-                    "name": [
-                        "Vanilla Apparel Expanded \u2014 Accessories"
-                    ]
-                },
-                "vanillaexpanded.vtexe": {
-                    "comment": [
-                        "Vanilla textures overwrite some of CEtexture(guns/mechanoidguns). this order should fixed it.  sorry for the previous post forget to delete old rule before sharing"
-                    ],
-                    "name": [
-                        "Vanilla Textures Expanded"
-                    ]
-                },
-                "vanillaexpanded.vwenl": {
-                    "name": [
-                        "Vanilla Weapons Expanded - Non-Lethal"
-                    ]
-                }
-            }
-        },
-        "ceteam.combatextended.tpb": {
-            "loadAfter": {
-                "oskarpotocki.vfe.classical": {
-                    "comment": [
-                        "CE patched to fix this requirement, its nolonger a requirement https://github.com/CombatExtended-Continued/CombatExtended/pull/2004"
-                    ],
-                    "name": [
-                        "Vanilla Factions Expanded - Classical"
                     ]
                 }
             }
@@ -6161,16 +6114,6 @@
                     ],
                     "name": [
                         "Vanilla Weapons Expanded"
-                    ]
-                }
-            }
-        },
-        "oskarpotocki.vfe.insectoid": {
-            "loadBefore": {
-                "ceteam.combatextended": {
-                    "name": [
-                        "Combat Extended",
-                        "Combat Extended (Unofficial)"
                     ]
                 }
             }
