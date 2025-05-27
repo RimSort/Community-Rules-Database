@@ -1,5 +1,5 @@
 {
-    "timestamp": 1747650836,
+    "timestamp": 1748362606,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -7716,6 +7716,16 @@
                         "Vanilla Animals Expanded"
                     ]
                 }
+            },
+            "loadBefore": {
+                "krkr.rocketman": {
+                    "comment": "Should be loaded as low as possible but before Rocketman",
+                    "name": "RocketMan - Performance Mod"
+                }
+            },
+            "loadBottom": {
+                "comment": "Should be loaded as low as possible but before Rocketman",
+                "value": true
             }
         },
         "scorpio.royaltexturepack": {
@@ -8102,6 +8112,7 @@
                 }
             },
             "loadBottom": {
+                "comment": "Should be loaded as low as possible but before Rocketman",
                 "value": true
             }
         },
@@ -9101,14 +9112,12 @@
                     "name": [
                         "Common Sense"
                     ]
-                },
-                "oskarpotocki.vanillafactionsexpanded.core": {
-                    "comment": [
-                        "VEF Transpiller breaking Replimat "
-                    ],
-                    "name": [
-                        "Vanilla Expanded Framework"
-                    ]
+                }
+            },
+            "loadAfter": {
+                "ludeon.rimworld.biotech": {
+                    "comment": "Otherwise it gets sorted after prepatcher which is bad.",
+                    "name": "RimWorld - Biotech"
                 }
             }
         },
@@ -10361,6 +10370,12 @@
                         "Vanilla UI Expanded"
                     ]
                 }
+            },
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "it needs framework to be loaded prior.",
+                    "name": "Vanilla Expanded Framework"
+                }
             }
         },
         "vanya.outsource.bodytypeextend": {
@@ -11254,20 +11269,6 @@
                 "value": true
             }
         },
-        "bs.fishery": {
-            "loadAfter": {
-                "zetrith.prepatcher": {
-                    "comment": "Prepatcher contains harmony, so fishery should be loaded after.",
-                    "name": "Prepatcher"
-                }
-            },
-            "loadBefore": {
-                "ludeon.rimworld": {
-                    "comment": "Should be loaded Right before core ",
-                    "name": "RimWorld"
-                }
-            }
-        },
         "yanzihko.yzrcm": {
             "loadBefore": {
                 "yanzihko.bdfp": {
@@ -11376,20 +11377,6 @@
                 }
             }
         },
-        "bs.performance": {
-            "loadAfter": {
-                "ludeon.rimworld": {
-                    "comment": "Should be Loaded Right after core",
-                    "name": "RimWorld"
-                }
-            },
-            "loadBefore": {
-                "ludeon.rimworld.royalty": {
-                    "comment": "To Force it load Right after core ",
-                    "name": "RimWorld - Royalty"
-                }
-            }
-        },
         "nuanki.localflight": {
             "loadAfter": {
                 "jahv.spacervehicleshal.continued": {
@@ -11403,6 +11390,30 @@
                 "cantaloupe.onesiesforall": {
                     "comment": "It should be loaded after to apply the patch.",
                     "name": "OnesiesForAll"
+                }
+            }
+        },
+        "imranfish.xmlextensions": {
+            "loadBefore": {
+                "unlimitedhugs.hugslib": {
+                    "comment": "Should be loaded as high up as possible after DLC ",
+                    "name": "HugsLib"
+                }
+            }
+        },
+        "vinzero.revia.facialanimation": {
+            "loadAfter": {
+                "fs.reviaracebiotech": {
+                    "comment": "Should be Loaded after this as this is the Compatible Biotech Version of Revia Race HAR version ",
+                    "name": "Revia Race - biotech"
+                }
+            }
+        },
+        "nota.bigfanof.lassos": {
+            "loadAfter": {
+                "co.uk.epicguru.meleeanimation": {
+                    "comment": "Should load After Melee Animation else there will be TONS OF ERRORS spammed permanently.",
+                    "name": "Melee Animation"
                 }
             }
         }
