@@ -1,5 +1,5 @@
 {
-    "timestamp": 1748362606,
+    "timestamp": 1748362949,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -6084,18 +6084,6 @@
                 "teok25.dark.braziers": {
                     "name": [
                         "Dark Braziers"
-                    ]
-                }
-            }
-        },
-        "oskarpotocki.vanillafactionsexpanded.core": {
-            "loadAfter": {
-                "ludeon.rimworld.ideology": {
-                    "comment": [
-                        "Should load after official dlc"
-                    ],
-                    "name": [
-                        ""
                     ]
                 }
             }
