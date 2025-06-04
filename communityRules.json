@@ -1,5 +1,5 @@
 {
-    "timestamp": 1742626032,
+    "timestamp": 1748362949,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -5309,6 +5309,12 @@
                         "Yayo's Combat Warcaskets"
                     ]
                 }
+            },
+            "loadAfter": {
+                "owlchemist.tacticowl": {
+                    "comment": "Should be loaded after Dual wield Mods.",
+                    "name": "Tacticowl (temporary beta)"
+                }
             }
         },
         "mrkociak.archoart": {
@@ -6078,18 +6084,6 @@
                 "teok25.dark.braziers": {
                     "name": [
                         "Dark Braziers"
-                    ]
-                }
-            }
-        },
-        "oskarpotocki.vanillafactionsexpanded.core": {
-            "loadAfter": {
-                "ludeon.rimworld.ideology": {
-                    "comment": [
-                        "Should load after official dlc"
-                    ],
-                    "name": [
-                        ""
                     ]
                 }
             }
@@ -7710,6 +7704,16 @@
                         "Vanilla Animals Expanded"
                     ]
                 }
+            },
+            "loadBefore": {
+                "krkr.rocketman": {
+                    "comment": "Should be loaded as low as possible but before Rocketman",
+                    "name": "RocketMan - Performance Mod"
+                }
+            },
+            "loadBottom": {
+                "comment": "Should be loaded as low as possible but before Rocketman",
+                "value": true
             }
         },
         "scorpio.royaltexturepack": {
@@ -7926,6 +7930,10 @@
                         "ReGrowth: Mutated Animals Pack"
                     ]
                 },
+                "rh2.faction.void": {
+                    "comment": "it got some Meats producing \"Entities\" ",
+                    "name": "[RH2] Faction: V.O.I.D."
+                },
                 "rimeffect.core": {
                     "name": [
                         "Rim-Effect: Core"
@@ -8092,7 +8100,7 @@
                 }
             },
             "loadBottom": {
-                "comment": "recommendation from the OP",
+                "comment": "Should be loaded as low as possible but before Rocketman",
                 "value": true
             }
         },
@@ -9092,14 +9100,12 @@
                     "name": [
                         "Common Sense"
                     ]
-                },
-                "oskarpotocki.vanillafactionsexpanded.core": {
-                    "comment": [
-                        "VEF Transpiller breaking Replimat "
-                    ],
-                    "name": [
-                        "Vanilla Expanded Framework"
-                    ]
+                }
+            },
+            "loadAfter": {
+                "ludeon.rimworld.biotech": {
+                    "comment": "Otherwise it gets sorted after prepatcher which is bad.",
+                    "name": "RimWorld - Biotech"
                 }
             }
         },
@@ -10352,6 +10358,12 @@
                         "Vanilla UI Expanded"
                     ]
                 }
+            },
+            "loadAfter": {
+                "oskarpotocki.vanillafactionsexpanded.core": {
+                    "comment": "it needs framework to be loaded prior.",
+                    "name": "Vanilla Expanded Framework"
+                }
             }
         },
         "vanya.outsource.bodytypeextend": {
@@ -11245,14 +11257,6 @@
                 "value": true
             }
         },
-        "bs.fishery": {
-            "loadAfter": {
-                "zetrith.prepatcher": {
-                    "comment": "Prepatcher contains harmony, so fishery should be loaded after.",
-                    "name": "Prepatcher"
-                }
-            }
-        },
         "yanzihko.yzrcm": {
             "loadBefore": {
                 "yanzihko.bdfp": {
@@ -11358,6 +11362,46 @@
                 "biomesteam.oasis": {
                     "comment": "Breaks World Generation and World Loading in general if this is loaded prior to the various Biomes! mods.",
                     "name": "Biomes! Oasis"
+                }
+            }
+        },
+        "nuanki.localflight": {
+            "loadAfter": {
+                "jahv.spacervehicleshal.continued": {
+                    "comment": "Should be loaded else it doesnt work.",
+                    "name": "Titan Vehicles Continued"
+                }
+            }
+        },
+        "cantaloupe.onesiesforall.nerfed": {
+            "loadAfter": {
+                "cantaloupe.onesiesforall": {
+                    "comment": "It should be loaded after to apply the patch.",
+                    "name": "OnesiesForAll"
+                }
+            }
+        },
+        "imranfish.xmlextensions": {
+            "loadBefore": {
+                "unlimitedhugs.hugslib": {
+                    "comment": "Should be loaded as high up as possible after DLC ",
+                    "name": "HugsLib"
+                }
+            }
+        },
+        "vinzero.revia.facialanimation": {
+            "loadAfter": {
+                "fs.reviaracebiotech": {
+                    "comment": "Should be Loaded after this as this is the Compatible Biotech Version of Revia Race HAR version ",
+                    "name": "Revia Race - biotech"
+                }
+            }
+        },
+        "nota.bigfanof.lassos": {
+            "loadAfter": {
+                "co.uk.epicguru.meleeanimation": {
+                    "comment": "Should load After Melee Animation else there will be TONS OF ERRORS spammed permanently.",
+                    "name": "Melee Animation"
                 }
             }
         }
