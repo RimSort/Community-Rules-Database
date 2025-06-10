@@ -11404,6 +11404,26 @@
                     "name": "Melee Animation"
                 }
             }
+        },
+        "mlie.syrtraitvalue": {
+            "loadBefore": {
+                "consolidatedtraits.lc.rw": {
+                    "comment": "to load before all trait mods, per mod description",
+                    "name": "[LC] Consolidated Traits"
+                },
+                "mlie.sexualitytraits": {
+                    "comment": "to load before all trait mods, per mod description",
+                    "name": "Sexuality Traits (Continued)"
+                },
+                "vanillaexpanded.vanillatraitsexpanded": {
+                    "comment": "to load before all trait mods, per mod description",
+                    "name": "Vanilla Traits Expanded"
+                },
+                "vanillaexpanded.vcef": {
+                    "comment": "to load before all trait mods, per mod description (fisherman trait)",
+                    "name": "Vanilla Fishing Expanded"
+                }
+            }
         }
     }
 }
