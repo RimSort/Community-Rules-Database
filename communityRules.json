@@ -1,5 +1,5 @@
 {
-    "timestamp": 1749606689,
+    "timestamp": 1749614051,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11386,6 +11386,12 @@
                 "unlimitedhugs.hugslib": {
                     "comment": "Should be loaded as high up as possible after DLC ",
                     "name": "HugsLib"
+                }
+            },
+            "loadAfter": {
+                "ludeon.rimworld.royalty": {
+                    "comment": "Test Rule",
+                    "name": "RimWorld - Royalty"
                 }
             }
         },
