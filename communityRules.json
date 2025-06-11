@@ -1,5 +1,5 @@
 {
-    "timestamp": 1748362949,
+    "timestamp": 1749606689,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11422,6 +11422,18 @@
                 "vanillaexpanded.vcef": {
                     "comment": "to load before all trait mods, per mod description (fisherman trait)",
                     "name": "Vanilla Fishing Expanded"
+                }
+            }
+        },
+        "ghostdata.lifelessons.medicalmishaps": {
+            "loadBefore": {
+                "tofudriver.medicaltabforked": {
+                    "comment": "hours of trial and error",
+                    "name": "Medical Tab - Forked"
+                },
+                "uuugggg.smartmedicine": {
+                    "comment": "hours of trial and error",
+                    "name": "Smart Medicine"
                 }
             }
         }
