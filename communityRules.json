@@ -1,5 +1,5 @@
 {
-    "timestamp": 1748362949,
+    "timestamp": 1749610531,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11386,6 +11386,28 @@
                 "unlimitedhugs.hugslib": {
                     "comment": "Should be loaded as high up as possible after DLC ",
                     "name": "HugsLib"
+                }
+            },
+            "loadAfter": {
+                "bs.performance": {
+                    "comment": "Dummy Test Rule",
+                    "name": "Performance Fish"
+                },
+                "ludeon.rimworld.anomaly": {
+                    "comment": "Should be loaded after DLC",
+                    "name": "RimWorld - Anomaly"
+                },
+                "ludeon.rimworld.biotech": {
+                    "comment": "Should be loaded after DLC",
+                    "name": "RimWorld - Biotech"
+                },
+                "ludeon.rimworld.ideology": {
+                    "comment": "Should be loaded after DLC",
+                    "name": "RimWorld - Ideology"
+                },
+                "ludeon.rimworld.royalty": {
+                    "comment": "Should be loaded after DLC",
+                    "name": "RimWorld - Royalty"
                 }
             }
         },
