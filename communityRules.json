@@ -1,5 +1,5 @@
 {
-    "timestamp": 1749606689,
+    "timestamp": 1751995297,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11218,18 +11218,6 @@
                 "m00nl1ght.geologicallandforms": {
                     "comment": "This is a patch for Geological Landforms, thus it should be loaded after Geological Landforms.",
                     "name": "Geological Landforms"
-                }
-            }
-        },
-        "reel.facialanims": {
-            "loadBefore": {
-                "oppey.eyegenes2": {
-                    "comment": "This is according to Reel's Steampage. There is a MayRequire patch EyeGenes in Reel's mod.",
-                    "name": "[BT] EyeGenes2 | Base - [NL] Facial Animation |"
-                },
-                "vanillaexpanded.vtexe.facialanims": {
-                    "comment": "This is according to Reel's steampage. Loading this after this mod causes the blinking animations to flicker.",
-                    "name": "Vanilla Textures Expanded - [NL] Facial Animation"
                 }
             }
         },
