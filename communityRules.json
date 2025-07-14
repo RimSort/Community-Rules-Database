@@ -1,5 +1,5 @@
 {
-    "timestamp": 1751995297,
+    "timestamp": 1752464772,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11422,6 +11422,50 @@
                 "uuugggg.smartmedicine": {
                     "comment": "hours of trial and error",
                     "name": "Smart Medicine"
+                }
+            }
+        },
+        "ceteam.combatextended": {
+            "loadBefore": {
+                "almantuxas.dcace": {
+                    "comment": "load CE before ammo mods",
+                    "name": "Diffusing Charge Ammo - CE"
+                },
+                "collapse.dunesofrim.atreides": {
+                    "comment": "load CE before mods with builtin CE patches",
+                    "name": "Dune: Atreides Armour & Weapon Pack"
+                },
+                "collapse.dunesofrim.harkonnen": {
+                    "comment": "load CE before mods with builtin CE patches",
+                    "name": "Dune: Harkonnen Armour & Weapon Pack"
+                },
+                "keshash.ammovarietygrenadelaunchers": {
+                    "comment": "load CE before ammo mods",
+                    "name": "Ammo Variety - Grenade Launchers"
+                },
+                "keshash.ammovarietyshotgun": {
+                    "comment": "load CE before ammo mods",
+                    "name": "Ammo Variety - Shotguns"
+                },
+                "keshash.ammovarietyshotgunbloat": {
+                    "comment": "load CE before ammo mods",
+                    "name": "Ammo Variety - Shotguns - Bloat Module"
+                },
+                "sgg1.qcora": {
+                    "comment": "load CE before mods with builtin CE patches",
+                    "name": "Quasimorph - Church Of Revelation armoury"
+                },
+                "sgg1.qra": {
+                    "comment": "load CE before mods with builtin CE patches",
+                    "name": "Quasimorph - Realware\u2122 armoury"
+                },
+                "sgg1.qrc": {
+                    "comment": "load CE before mods with builtin CE patches",
+                    "name": "Quasimorph - Mercenary contracts"
+                },
+                "vr.combatextendedimportantammo": {
+                    "comment": "load CE before ammo mods",
+                    "name": "Combat Extended Even More Important Ammo"
                 }
             }
         }
