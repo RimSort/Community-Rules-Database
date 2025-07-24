@@ -1,5 +1,5 @@
 {
-    "timestamp": 1752464772,
+    "timestamp": 1753367599,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -10079,6 +10079,11 @@
                     ]
                 },
                 "ludeon.rimworld.ideology": {
+                    "name": [
+                        ""
+                    ]
+                },
+                "ludeon.rimworld.odyssey": {
                     "name": [
                         ""
                     ]
