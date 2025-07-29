@@ -1,5 +1,5 @@
 {
-    "timestamp": 1753809379,
+    "timestamp": 1753810234,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11529,6 +11529,12 @@
                     "comment": "Otherwise the mod overwrites the fix",
                     "name": "AI Upscaled Textures - Core"
                 }
+            }
+        },
+        "oskarpotocki.vanillafactionsexpanded.core": {
+            "loadTop": {
+                "comment": "Should always be loaded as a Tier-1 mod",
+                "value": true
             }
         }
     }
