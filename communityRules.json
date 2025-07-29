@@ -1,5 +1,5 @@
 {
-    "timestamp": 1753524125,
+    "timestamp": 1753733160,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11470,6 +11470,14 @@
                 "vr.combatextendedimportantammo": {
                     "comment": "load CE before ammo mods",
                     "name": "Combat Extended Even More Important Ammo"
+                }
+            }
+        },
+        "tied.parkaretex": {
+            "loadAfter": {
+                "gerrymon.uvt": {
+                    "comment": "Gerrymon's Upscaled Vanilla Textures has a parka texture, and thus conflicts with Parka Retexture. Parka Retexture should be given priority as it is more specific.",
+                    "name": "Gerrymon's Upscaled Vanilla Textures"
                 }
             }
         }
