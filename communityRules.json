@@ -11476,6 +11476,30 @@
                     "name": "Gerrymon's Upscaled Vanilla Textures"
                 }
             }
+        },
+        "jijiang.red.eyes": {
+            "loadAfter": {
+                "airetexture.core": {
+                    "comment": "Otherwise the mod overwrites the fix",
+                    "name": "AI Upscaled Textures - Core"
+                }
+            }
+        },
+        "jijiang.eyes": {
+            "loadAfter": {
+                "airetexture.core": {
+                    "comment": "Otherwise the mod overwrites the fix",
+                    "name": "AI Upscaled Textures - Core"
+                }
+            }
+        },
+        "cassie.hiddeneyes": {
+            "loadAfter": {
+                "airetexture.core": {
+                    "comment": "Otherwise the mod overwrites the fix",
+                    "name": "AI Upscaled Textures - Core"
+                }
+            }
         }
     }
 }
