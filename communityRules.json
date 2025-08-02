@@ -1,5 +1,5 @@
 {
-    "timestamp": 1754150375,
+    "timestamp": 1754151277,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11401,6 +11401,10 @@
                     "comment": "Should Always load after DLC",
                     "name": "RimWorld - Royalty"
                 }
+            },
+            "loadTop": {
+                "comment": "Should be Treated as Tier-1 mod",
+                "value": true
             }
         },
         "vinzero.revia.facialanimation": {
