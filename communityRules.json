@@ -1,7 +1,5 @@
 {
-
     "timestamp": 1754289831,
-
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
