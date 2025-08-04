@@ -1,5 +1,5 @@
 {
-    "timestamp": 1751995297,
+    "timestamp": 1754289831,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11422,6 +11422,30 @@
                 "uuugggg.smartmedicine": {
                     "comment": "hours of trial and error",
                     "name": "Smart Medicine"
+                }
+            }
+        },
+        "el.invmech": {
+            "loadAfter": {
+                "ceteam.combatextended": {
+                    "comment": "patch Dependency ",
+                    "name": "Combat Extended"
+                }
+            }
+        },
+        "ceteam.combatextended": {
+            "loadBefore": {
+                "gogatio.mechanoidupgrades": {
+                    "comment": "Patch dependency",
+                    "name": "Mechanoid Upgrades"
+                },
+                "gogatio.mechanoidupgrades.anomaly": {
+                    "comment": "Patch dependency",
+                    "name": "Mechanoid Upgrades - Anomaly"
+                },
+                "gogatio.mechanoidupgrades.archotech": {
+                    "comment": "",
+                    "name": "Mechanoid Upgrades - Archotech"
                 }
             }
         }
