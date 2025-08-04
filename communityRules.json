@@ -1,5 +1,5 @@
 {
-    "timestamp": 1754151277,
+    "timestamp": 1754269158,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -5276,6 +5276,32 @@
                     "name": [
                         "Vanilla Expanded Framework"
                     ]
+                }
+            },
+            "loadAfter": {
+                "ludeon.rimworld": {
+                    "comment": "Always Load After Game",
+                    "name": "RimWorld"
+                },
+                "ludeon.rimworld.anomaly": {
+                    "comment": "Always Load After DLC",
+                    "name": "RimWorld - Anomaly"
+                },
+                "ludeon.rimworld.biotech": {
+                    "comment": "Always Load After DLC",
+                    "name": "RimWorld - Biotech"
+                },
+                "ludeon.rimworld.ideology": {
+                    "comment": "Always Load After DLC",
+                    "name": "RimWorld - Ideology"
+                },
+                "ludeon.rimworld.odyssey": {
+                    "comment": "Always Load After DLC",
+                    "name": "RimWorld - Odyssey"
+                },
+                "ludeon.rimworld.royalty": {
+                    "comment": "Always Load After DLC",
+                    "name": "RimWorld - Royalty"
                 }
             }
         },
