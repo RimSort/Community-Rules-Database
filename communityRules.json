@@ -1,5 +1,5 @@
 {
-    "timestamp": 1754269158,
+    "timestamp": 1754269919,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11601,12 +11601,6 @@
                     "comment": "Should be loaded before  Game and DLC",
                     "name": "RimWorld"
                 }
-            }
-        },
-        "oskarpotocki.vanillafactionsexpanded.core": {
-            "loadTop": {
-                "comment": "Treat Framework as Tier-1 mod",
-                "value": true
             }
         }
     }
