@@ -1,5 +1,5 @@
 {
-    "timestamp": 1754269919,
+    "timestamp": 1754289831,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11522,6 +11522,22 @@
                 "vr.combatextendedimportantammo": {
                     "comment": "load CE before ammo mods",
                     "name": "Combat Extended Even More Important Ammo"
+                },
+                 "el.invmech": {
+                    "comment": "patch Dependency",
+                    "name": "Mechanoid Invaders"
+                },
+                "gogatio.mechanoidupgrades": {
+                    "comment": "Patch dependency",
+                    "name": "Mechanoid Upgrades"
+                },
+                "gogatio.mechanoidupgrades.anomaly": {
+                    "comment": "Patch dependency",
+                    "name": "Mechanoid Upgrades - Anomaly"
+                },
+                "gogatio.mechanoidupgrades.archotech": {
+                    "comment": "Patch dependency",
+                    "name": "Mechanoid Upgrades - Archotech"
                 }
             }
         },
