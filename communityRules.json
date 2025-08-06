@@ -1,5 +1,5 @@
 {
-    "timestamp": 1754452461,
+    "timestamp": 1754456621,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11606,6 +11606,22 @@
                 "brrainz.harmony": {
                     "comment": "Always Load After Harmony",
                     "name": "Harmony"
+                }
+            }
+        },
+        "usagirei.lootgoblin": {
+            "incompatibleWith": {
+                "ogre.ogrestack": {
+                    "comment": "Overlapping functionality",
+                    "name": "OgreStack"
+                }
+            }
+        },
+        "ogre.ogrestack": {
+            "incompatibleWith": {
+                "usagirei.lootgoblin": {
+                    "comment": "Overlapping functionality",
+                    "name": "Loot Goblin"
                 }
             }
         }
