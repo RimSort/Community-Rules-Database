@@ -1,5 +1,5 @@
 {
-    "timestamp": 1754289831,
+    "timestamp": 1754452461,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11495,6 +11495,22 @@
                     "comment": "load CE before mods with builtin CE patches",
                     "name": "Dune: Harkonnen Armour & Weapon Pack"
                 },
+                "el.invmech": {
+                    "comment": "patch Dependency",
+                    "name": "Mechanoid Invaders"
+                },
+                "gogatio.mechanoidupgrades": {
+                    "comment": "Patch dependency",
+                    "name": "Mechanoid Upgrades"
+                },
+                "gogatio.mechanoidupgrades.anomaly": {
+                    "comment": "Patch dependency",
+                    "name": "Mechanoid Upgrades - Anomaly"
+                },
+                "gogatio.mechanoidupgrades.archotech": {
+                    "comment": "Patch dependency",
+                    "name": "Mechanoid Upgrades - Archotech"
+                },
                 "keshash.ammovarietygrenadelaunchers": {
                     "comment": "load CE before ammo mods",
                     "name": "Ammo Variety - Grenade Launchers"
@@ -11522,22 +11538,6 @@
                 "vr.combatextendedimportantammo": {
                     "comment": "load CE before ammo mods",
                     "name": "Combat Extended Even More Important Ammo"
-                },
-                 "el.invmech": {
-                    "comment": "patch Dependency",
-                    "name": "Mechanoid Invaders"
-                },
-                "gogatio.mechanoidupgrades": {
-                    "comment": "Patch dependency",
-                    "name": "Mechanoid Upgrades"
-                },
-                "gogatio.mechanoidupgrades.anomaly": {
-                    "comment": "Patch dependency",
-                    "name": "Mechanoid Upgrades - Anomaly"
-                },
-                "gogatio.mechanoidupgrades.archotech": {
-                    "comment": "Patch dependency",
-                    "name": "Mechanoid Upgrades - Archotech"
                 }
             }
         },
@@ -11606,16 +11606,6 @@
                 "brrainz.harmony": {
                     "comment": "Always Load After Harmony",
                     "name": "Harmony"
-                }
-            },
-            "loadTop": {
-                "comment": "Always load After Harmony",
-                "value": true
-            },
-            "loadBefore": {
-                "ludeon.rimworld": {
-                    "comment": "Should be loaded before  Game and DLC",
-                    "name": "RimWorld"
                 }
             }
         }
