@@ -1,5 +1,5 @@
 {
-    "timestamp": 1754823348,
+    "timestamp": 1755211209,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11606,6 +11606,22 @@
                 "brrainz.harmony": {
                     "comment": "Always Load After Harmony",
                     "name": "Harmony"
+                }
+            }
+        },
+        "shilica.smallerplanet": {
+            "incompatibleWith": {
+                "oblitus.mylittleplanet": {
+                    "comment": "Overlapping features",
+                    "name": "My Little Planet"
+                }
+            }
+        },
+        "oblitus.mylittleplanet": {
+            "incompatibleWith": {
+                "shilica.smallerplanet": {
+                    "comment": "Overlapping features",
+                    "name": "Smaller Planet"
                 }
             }
         },
