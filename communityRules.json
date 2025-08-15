@@ -11624,6 +11624,66 @@
                     "name": "Smaller Planet"
                 }
             }
+        },
+        "usagirei.lootgoblin": {
+            "incompatibleWith": {
+                "ogre.ogrestack": {
+                    "comment": "Overlapping functionality",
+                    "name": "OgreStack"
+                }
+            }
+        },
+        "ogre.ogrestack": {
+            "incompatibleWith": {
+                "usagirei.lootgoblin": {
+                    "comment": "Overlapping functionality",
+                    "name": "Loot Goblin"
+                }
+            }
+        },
+        "fxz.solaris.ratkinracemod.odyssey": {
+            "loadBefore": {
+                "bbb.ratkinweapon.morefailure": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "Ratkin Weapons+"
+                },
+                "fxz.ratkin.facialanimation": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "Hyacinth's Ratkin Facial Animation"
+                },
+                "fxz.ratkinfaction": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "Ratkin Faction+"
+                },
+                "momanacha.ratkinbodyretexture": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "Ratkin Body Retexture"
+                },
+                "momanacha.rkhairexpanded": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "Ratkin Hairstyle Expanded"
+                },
+                "oark.ratkinfaction.geneexpand": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "[OA]Ratkin Gene Expand"
+                },
+                "oark.ratkinfaction.oberoniaaurea": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "[OA]Ratkin Faction: Oberonia aurea"
+                },
+                "oark.ratkinfaction.scenarioexpand.snowstorm": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "[OA]Ratkin Scenario: Snowstorm Orphan"
+                },
+                "oark.ratkinknightorderfurniture": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "[OA]Ratkin : Knight Order(Furniture)"
+                },
+                "thewwworld.ratkinnameplus": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "\u9f20\u65cf\u540d\u79f0\u6269\u5c55RatkinNamePlus"
+                }
+            }
         }
     }
 }
