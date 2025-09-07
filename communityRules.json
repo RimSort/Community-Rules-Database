@@ -1,5 +1,5 @@
 {
-    "timestamp": 1754452461,
+    "timestamp": 1757255797,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11606,6 +11606,14 @@
                 "brrainz.harmony": {
                     "comment": "Always Load After Harmony",
                     "name": "Harmony"
+                }
+            }
+        },
+        "ferny.betterarchitect": {
+            "incompatibleWith": {
+                "deadmano.rimanoarchitecticons": {
+                    "comment": "is included in this mod",
+                    "name": "Rimano: Architect Icons"
                 }
             }
         }
