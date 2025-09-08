@@ -11614,6 +11614,9 @@
                 "deadmano.rimanoarchitecticons": {
                     "comment": "is included in this mod",
                     "name": "Rimano: Architect Icons"
+                }
+            }
+        },
         "shilica.smallerplanet": {
             "incompatibleWith": {
                 "oblitus.mylittleplanet": {
