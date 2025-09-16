@@ -1,5 +1,5 @@
 {
-    "timestamp": 1757255797,
+    "timestamp": 1758055294,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11690,6 +11690,14 @@
                 "thewwworld.ratkinnameplus": {
                     "comment": "Add sorting rules for the temporary version",
                     "name": "\u9f20\u65cf\u540d\u79f0\u6269\u5c55RatkinNamePlus"
+                }
+            }
+        },
+        "rebuild.cotr.doorsandcorners": {
+            "loadAfter": {
+                "dankpyon.medieval.overhaul": {
+                    "comment": "MO overwrites the Door Perspective Feature for normal Doors",
+                    "name": "Medieval Overhaul"
                 }
             }
         }
