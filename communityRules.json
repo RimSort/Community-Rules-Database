@@ -1,5 +1,5 @@
 {
-    "timestamp": 1758055294,
+    "timestamp": 1759260442,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11698,6 +11698,14 @@
                 "dankpyon.medieval.overhaul": {
                     "comment": "MO overwrites the Door Perspective Feature for normal Doors",
                     "name": "Medieval Overhaul"
+                }
+            }
+        },
+        "ferny.progressionaesthetics": {
+            "loadAfter": {
+                "wara.toomanymods": {
+                    "comment": "PA creates new research project and moves stuff inside it. TMM moves this back to the original place.",
+                    "name": "Too Many Mods - Compats and Rebalances"
                 }
             }
         }
