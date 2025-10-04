@@ -1,5 +1,5 @@
 {
-    "timestamp": 1759260442,
+    "timestamp": 1759617428,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11706,6 +11706,14 @@
                 "wara.toomanymods": {
                     "comment": "PA creates new research project and moves stuff inside it. TMM moves this back to the original place.",
                     "name": "Too Many Mods - Compats and Rebalances"
+                }
+            }
+        },
+        "gondragon.techtree": {
+            "loadBefore": {
+                "leo.cleanresearchsort": {
+                    "comment": "Per mod description",
+                    "name": "Clean Research Sort"
                 }
             }
         }
