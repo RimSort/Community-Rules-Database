@@ -1,5 +1,5 @@
 {
-    "timestamp": 1759617428,
+    "timestamp": 1760340501,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11595,10 +11595,6 @@
                     "comment": "Load after dlc",
                     "name": "RimWorld - Royalty"
                 }
-            },
-            "loadTop": {
-                "comment": "Treat Framework as Tier-1 mod",
-                "value": true
             }
         },
         "owlchemist.cherrypicker": {
