@@ -1,5 +1,5 @@
 {
-    "timestamp": 1762572851,
+    "timestamp": 1760340501,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -5277,6 +5277,32 @@
                         "Vanilla Expanded Framework"
                     ]
                 }
+            },
+            "loadAfter": {
+                "ludeon.rimworld": {
+                    "comment": "Always Load After Game",
+                    "name": "RimWorld"
+                },
+                "ludeon.rimworld.anomaly": {
+                    "comment": "Always Load After DLC",
+                    "name": "RimWorld - Anomaly"
+                },
+                "ludeon.rimworld.biotech": {
+                    "comment": "Always Load After DLC",
+                    "name": "RimWorld - Biotech"
+                },
+                "ludeon.rimworld.ideology": {
+                    "comment": "Always Load After DLC",
+                    "name": "RimWorld - Ideology"
+                },
+                "ludeon.rimworld.odyssey": {
+                    "comment": "Always Load After DLC",
+                    "name": "RimWorld - Odyssey"
+                },
+                "ludeon.rimworld.royalty": {
+                    "comment": "Always Load After DLC",
+                    "name": "RimWorld - Royalty"
+                }
             }
         },
         "mlie.xndtinytweaks": {
@@ -10082,6 +10108,10 @@
                     "name": [
                         ""
                     ]
+                },
+                "ludeon.rimworld.odyssey": {
+                    "comment": "",
+                    "name": "RimWorld - Odyssey"
                 }
             }
         },
@@ -11375,6 +11405,32 @@
                     "comment": "Should be loaded as high up as possible after DLC ",
                     "name": "HugsLib"
                 }
+            },
+            "loadAfter": {
+                "ludeon.rimworld.anomaly": {
+                    "comment": "Should Always load after DLC",
+                    "name": "RimWorld - Anomaly"
+                },
+                "ludeon.rimworld.biotech": {
+                    "comment": "Should Always load after DLC",
+                    "name": "RimWorld - Biotech"
+                },
+                "ludeon.rimworld.ideology": {
+                    "comment": "Should Always load after DLC",
+                    "name": "RimWorld - Ideology"
+                },
+                "ludeon.rimworld.odyssey": {
+                    "comment": "Should Always load after DLC",
+                    "name": "RimWorld - Odyssey"
+                },
+                "ludeon.rimworld.royalty": {
+                    "comment": "Should Always load after DLC",
+                    "name": "RimWorld - Royalty"
+                }
+            },
+            "loadTop": {
+                "comment": "Should be Treated as Tier-1 mod",
+                "value": true
             }
         },
         "vinzero.revia.facialanimation": {
@@ -11430,6 +11486,235 @@
                 "ceteam.combatextended": {
                     "comment": "load after CE so patch can work",
                     "name": "Combat Extended"
+        "ceteam.combatextended": {
+            "loadBefore": {
+                "almantuxas.dcace": {
+                    "comment": "load CE before ammo mods",
+                    "name": "Diffusing Charge Ammo - CE"
+                },
+                "collapse.dunesofrim.atreides": {
+                    "comment": "load CE before mods with builtin CE patches",
+                    "name": "Dune: Atreides Armour & Weapon Pack"
+                },
+                "collapse.dunesofrim.harkonnen": {
+                    "comment": "load CE before mods with builtin CE patches",
+                    "name": "Dune: Harkonnen Armour & Weapon Pack"
+                },
+                "el.invmech": {
+                    "comment": "patch Dependency",
+                    "name": "Mechanoid Invaders"
+                },
+                "gogatio.mechanoidupgrades": {
+                    "comment": "Patch dependency",
+                    "name": "Mechanoid Upgrades"
+                },
+                "gogatio.mechanoidupgrades.anomaly": {
+                    "comment": "Patch dependency",
+                    "name": "Mechanoid Upgrades - Anomaly"
+                },
+                "gogatio.mechanoidupgrades.archotech": {
+                    "comment": "Patch dependency",
+                    "name": "Mechanoid Upgrades - Archotech"
+                },
+                "keshash.ammovarietygrenadelaunchers": {
+                    "comment": "load CE before ammo mods",
+                    "name": "Ammo Variety - Grenade Launchers"
+                },
+                "keshash.ammovarietyshotgun": {
+                    "comment": "load CE before ammo mods",
+                    "name": "Ammo Variety - Shotguns"
+                },
+                "keshash.ammovarietyshotgunbloat": {
+                    "comment": "load CE before ammo mods",
+                    "name": "Ammo Variety - Shotguns - Bloat Module"
+                },
+                "sgg1.qcora": {
+                    "comment": "load CE before mods with builtin CE patches",
+                    "name": "Quasimorph - Church Of Revelation armoury"
+                },
+                "sgg1.qra": {
+                    "comment": "load CE before mods with builtin CE patches",
+                    "name": "Quasimorph - Realware\u2122 armoury"
+                },
+                "sgg1.qrc": {
+                    "comment": "load CE before mods with builtin CE patches",
+                    "name": "Quasimorph - Mercenary contracts"
+                },
+                "vr.combatextendedimportantammo": {
+                    "comment": "load CE before ammo mods",
+                    "name": "Combat Extended Even More Important Ammo"
+                }
+            }
+        },
+        "tied.parkaretex": {
+            "loadAfter": {
+                "gerrymon.uvt": {
+                    "comment": "Gerrymon's Upscaled Vanilla Textures has a parka texture, and thus conflicts with Parka Retexture. Parka Retexture should be given priority as it is more specific.",
+                    "name": "Gerrymon's Upscaled Vanilla Textures"
+                }
+            }
+        },
+        "jijiang.red.eyes": {
+            "loadAfter": {
+                "airetexture.core": {
+                    "comment": "Otherwise the mod overwrites the fix",
+                    "name": "AI Upscaled Textures - Core"
+                }
+            }
+        },
+        "jijiang.eyes": {
+            "loadAfter": {
+                "airetexture.core": {
+                    "comment": "Otherwise the mod overwrites the fix",
+                    "name": "AI Upscaled Textures - Core"
+                }
+            }
+        },
+        "cassie.hiddeneyes": {
+            "loadAfter": {
+                "airetexture.core": {
+                    "comment": "Otherwise the mod overwrites the fix",
+                    "name": "AI Upscaled Textures - Core"
+                }
+            }
+        },
+        "adaptive.storage.framework": {
+            "loadAfter": {
+                "ludeon.rimworld.anomaly": {
+                    "comment": "Load after dlc",
+                    "name": "RimWorld - Anomaly"
+                },
+                "ludeon.rimworld.biotech": {
+                    "comment": "Load after dlc",
+                    "name": "RimWorld - Biotech"
+                },
+                "ludeon.rimworld.ideology": {
+                    "comment": "Load after dlc",
+                    "name": "RimWorld - Ideology"
+                },
+                "ludeon.rimworld.odyssey": {
+                    "comment": "Load after dlc",
+                    "name": "RimWorld - Odyssey"
+                },
+                "ludeon.rimworld.royalty": {
+                    "comment": "Load after dlc",
+                    "name": "RimWorld - Royalty"
+                }
+            }
+        },
+        "owlchemist.cherrypicker": {
+            "loadAfter": {
+                "brrainz.harmony": {
+                    "comment": "Always Load After Harmony",
+                    "name": "Harmony"
+                }
+            }
+        },
+        "ferny.betterarchitect": {
+            "incompatibleWith": {
+                "deadmano.rimanoarchitecticons": {
+                    "comment": "is included in this mod",
+                    "name": "Rimano: Architect Icons"
+                }
+            }
+        },
+        "shilica.smallerplanet": {
+            "incompatibleWith": {
+                "oblitus.mylittleplanet": {
+                    "comment": "Overlapping features",
+                    "name": "My Little Planet"
+                }
+            }
+        },
+        "oblitus.mylittleplanet": {
+            "incompatibleWith": {
+                "shilica.smallerplanet": {
+                    "comment": "Overlapping features",
+                    "name": "Smaller Planet"
+                }
+            }
+        },
+        "usagirei.lootgoblin": {
+            "incompatibleWith": {
+                "ogre.ogrestack": {
+                    "comment": "Overlapping functionality",
+                    "name": "OgreStack"
+                }
+            }
+        },
+        "ogre.ogrestack": {
+            "incompatibleWith": {
+                "usagirei.lootgoblin": {
+                    "comment": "Overlapping functionality",
+                    "name": "Loot Goblin"
+                }
+            }
+        },
+        "fxz.solaris.ratkinracemod.odyssey": {
+            "loadBefore": {
+                "bbb.ratkinweapon.morefailure": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "Ratkin Weapons+"
+                },
+                "fxz.ratkin.facialanimation": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "Hyacinth's Ratkin Facial Animation"
+                },
+                "fxz.ratkinfaction": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "Ratkin Faction+"
+                },
+                "momanacha.ratkinbodyretexture": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "Ratkin Body Retexture"
+                },
+                "momanacha.rkhairexpanded": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "Ratkin Hairstyle Expanded"
+                },
+                "oark.ratkinfaction.geneexpand": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "[OA]Ratkin Gene Expand"
+                },
+                "oark.ratkinfaction.oberoniaaurea": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "[OA]Ratkin Faction: Oberonia aurea"
+                },
+                "oark.ratkinfaction.scenarioexpand.snowstorm": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "[OA]Ratkin Scenario: Snowstorm Orphan"
+                },
+                "oark.ratkinknightorderfurniture": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "[OA]Ratkin : Knight Order(Furniture)"
+                },
+                "thewwworld.ratkinnameplus": {
+                    "comment": "Add sorting rules for the temporary version",
+                    "name": "\u9f20\u65cf\u540d\u79f0\u6269\u5c55RatkinNamePlus"
+                }
+            }
+        },
+        "rebuild.cotr.doorsandcorners": {
+            "loadAfter": {
+                "dankpyon.medieval.overhaul": {
+                    "comment": "MO overwrites the Door Perspective Feature for normal Doors",
+                    "name": "Medieval Overhaul"
+                }
+            }
+        },
+        "ferny.progressionaesthetics": {
+            "loadAfter": {
+                "wara.toomanymods": {
+                    "comment": "PA creates new research project and moves stuff inside it. TMM moves this back to the original place.",
+                    "name": "Too Many Mods - Compats and Rebalances"
+                }
+            }
+        },
+        "gondragon.techtree": {
+            "loadBefore": {
+                "leo.cleanresearchsort": {
+                    "comment": "Per mod description",
+                    "name": "Clean Research Sort"
                 }
             }
         }
