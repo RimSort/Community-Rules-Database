@@ -11485,7 +11485,10 @@
             "loadAfter": {
                 "ceteam.combatextended": {
                     "comment": "load after CE so patch can work",
-                    "name": "Combat Extended"
+                    "name": "Combat Extended"                    
+                }
+            }
+        },
         "ceteam.combatextended": {
             "loadBefore": {
                 "almantuxas.dcace": {
