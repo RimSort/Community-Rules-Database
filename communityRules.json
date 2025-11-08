@@ -1,5 +1,5 @@
 {
-    "timestamp": 1751995297,
+    "timestamp": 1762572851,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11422,6 +11422,14 @@
                 "uuugggg.smartmedicine": {
                     "comment": "hours of trial and error",
                     "name": "Smart Medicine"
+                }
+            }
+        },
+        "van.beasts": {
+            "loadAfter": {
+                "ceteam.combatextended": {
+                    "comment": "load after CE so patch can work",
+                    "name": "Combat Extended"
                 }
             }
         }
