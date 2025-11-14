@@ -1,5 +1,5 @@
 {
-    "timestamp": 1760340501,
+    "timestamp": 1763085572,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11485,7 +11485,7 @@
             "loadAfter": {
                 "ceteam.combatextended": {
                     "comment": "load after CE so patch can work",
-                    "name": "Combat Extended"                    
+                    "name": "Combat Extended"
                 }
             }
         },
@@ -11702,14 +11702,6 @@
                 "dankpyon.medieval.overhaul": {
                     "comment": "MO overwrites the Door Perspective Feature for normal Doors",
                     "name": "Medieval Overhaul"
-                }
-            }
-        },
-        "ferny.progressionaesthetics": {
-            "loadAfter": {
-                "wara.toomanymods": {
-                    "comment": "PA creates new research project and moves stuff inside it. TMM moves this back to the original place.",
-                    "name": "Too Many Mods - Compats and Rebalances"
                 }
             }
         },
