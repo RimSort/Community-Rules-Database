@@ -1,5 +1,5 @@
 {
-    "timestamp": 1763085572,
+    "timestamp": 1764854415,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11710,6 +11710,14 @@
                 "leo.cleanresearchsort": {
                     "comment": "Per mod description",
                     "name": "Clean Research Sort"
+                }
+            }
+        },
+        "kamikatze.materialfilter": {
+            "loadBefore": {
+                "kopp.caravanitemselectionenhanced": {
+                    "comment": "added as per request here https://github.com/RimSort/RimSort/issues/1352",
+                    "name": "Caravan Item Selection Enhanced"
                 }
             }
         }
