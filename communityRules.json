@@ -1,5 +1,5 @@
 {
-    "timestamp": 1764854415,
+    "timestamp": 1767617311,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11718,6 +11718,30 @@
                 "kopp.caravanitemselectionenhanced": {
                     "comment": "added as per request here https://github.com/RimSort/RimSort/issues/1352",
                     "name": "Caravan Item Selection Enhanced"
+                }
+            }
+        },
+        "hawkwood.facialanimationsxenotypecompatibility": {
+            "loadAfter": {
+                "brrainz.harmony": {
+                    "comment": "It needs harmony",
+                    "name": "Harmony"
+                }
+            }
+        },
+        "kingsman.anomalypatch": {
+            "loadAfter": {
+                "oppey.eyegenes2lite": {
+                    "comment": "Else gray eyes will still appear",
+                    "name": "[BT] EyeGenes2Lite"
+                }
+            }
+        },
+        "mlie.recyclethis": {
+            "loadAfter": {
+                "vanillaracesexpanded.android": {
+                    "comment": "Else androids' remove part jobs won't appear",
+                    "name": "Vanilla Races Expanded - Android"
                 }
             }
         }
