@@ -1,5 +1,5 @@
 {
-    "timestamp": 1767617311,
+    "timestamp": 1768429404,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11502,6 +11502,10 @@
                 "collapse.dunesofrim.harkonnen": {
                     "comment": "load CE before mods with builtin CE patches",
                     "name": "Dune: Harkonnen Armour & Weapon Pack"
+                },
+                "com.distman.gastrap": {
+                    "comment": "this mod has been reported by the creator to be required to be loaded after CE to work. reportedly causes map generation issues otherwise.",
+                    "name": "Gas Traps And Shells"
                 },
                 "el.invmech": {
                     "comment": "patch Dependency",
