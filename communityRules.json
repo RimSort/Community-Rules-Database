@@ -1,5 +1,5 @@
 {
-    "timestamp": 1768429404,
+    "timestamp": 1768661512,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -937,11 +937,6 @@
                 "pelador.emporium": {
                     "name": [
                         "Emporium"
-                    ]
-                },
-                "rwzh.chinesepack.traderships": {
-                    "name": [
-                        "Trader_ships_zh"
                     ]
                 }
             }
