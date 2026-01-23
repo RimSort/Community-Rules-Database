@@ -1,5 +1,5 @@
 {
-    "timestamp": 1768862591,
+    "timestamp": 1769135312,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11749,6 +11749,14 @@
                 "gerrymon.uvt": {
                     "comment": "Overwrite Gerrymon's textures",
                     "name": "Gerrymon's Upscaled Vanilla Textures"
+                }
+            }
+        },
+        "mazo.schedules": {
+            "loadAfter": {
+                "ferny.progressioneducation": {
+                    "comment": "Fix schedule overriding",
+                    "name": "Progression: Education"
                 }
             }
         }
