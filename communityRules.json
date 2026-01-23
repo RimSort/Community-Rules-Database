@@ -1,5 +1,5 @@
 {
-    "timestamp": 1768661512,
+    "timestamp": 1769128794,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -11741,6 +11741,14 @@
                 "vanillaracesexpanded.android": {
                     "comment": "Else androids' remove part jobs won't appear",
                     "name": "Vanilla Races Expanded - Android"
+                }
+            }
+        },
+        "mazo.schedules": {
+            "loadAfter": {
+                "ferny.progressioneducation": {
+                    "comment": "Fix schedule overriding",
+                    "name": "Progression: Education"
                 }
             }
         }
