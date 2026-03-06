@@ -7072,10 +7072,12 @@
                     "name": [
                         "RocketMan - Performance Mod"
                     ]
-                },
+                }              
+            },
+            "loadAfter": {
                 "rim.job.world": {
                     "name": [
-                        ""
+                        "RimJobWorld"
                     ]
                 }
             }
