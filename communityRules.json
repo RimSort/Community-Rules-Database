@@ -1,5 +1,5 @@
 {
-    "timestamp": 1769135312,
+    "timestamp": 1772903168,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -7072,7 +7072,7 @@
                     "name": [
                         "RocketMan - Performance Mod"
                     ]
-                }              
+                }
             },
             "loadAfter": {
                 "rim.job.world": {
@@ -11759,6 +11759,14 @@
                 "ferny.progressioneducation": {
                     "comment": "Fix schedule overriding",
                     "name": "Progression: Education"
+                }
+            }
+        },
+        "phantomofares.rimworldarchipelago": {
+            "incompatibleWith": {
+                "fluffy.researchtree": {
+                    "comment": "Causes research tree generation to never finish, leading to high performance loss even with the tree disabled",
+                    "name": "Research Tree (Continued)"
                 }
             }
         }
