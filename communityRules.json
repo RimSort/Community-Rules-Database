@@ -1,5 +1,5 @@
 {
-    "timestamp": 1769135312,
+    "timestamp": 1775578335,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -7072,7 +7072,7 @@
                     "name": [
                         "RocketMan - Performance Mod"
                     ]
-                }              
+                }
             },
             "loadAfter": {
                 "rim.job.world": {
@@ -11759,6 +11759,14 @@
                 "ferny.progressioneducation": {
                     "comment": "Fix schedule overriding",
                     "name": "Progression: Education"
+                }
+            }
+        },
+        "stokes.simplehoodcape": {
+            "loadAfter": {
+                "vanillaexpanded.vtexe": {
+                    "comment": "Overwrite Vanilla Textures Expanded Textures for Cape and Hood",
+                    "name": "Vanilla Textures Expanded"
                 }
             }
         }
