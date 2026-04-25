@@ -4158,6 +4158,12 @@
                 "comment": "RocketMan should always be loaded last. It is known.",
                 "value": true
             }
+        }
+        "vr.missilegirl": {
+            "loadBottom": {
+                "comment": "Missile Girl as a fork of RocketMan also should always be loaded last.",
+                "value": true
+            }
         },
         "kure.arom": {
             "loadAfter": {
