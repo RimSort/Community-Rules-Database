@@ -1,5 +1,5 @@
 {
-    "timestamp": 1769135312,
+    "timestamp": 1777950016,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -1524,7 +1524,13 @@
                     "name": [
                         "RocketMan - Performance Mod"
                     ]
+                },
+                "vr.missilegirl": {
+                    "name": [
+                        "Missile Girl - Performance Mod"
+                    ]
                 }
+                
             },
             "loadAfter": {
                 "dracoix.zars.tribalism": {
@@ -7072,7 +7078,12 @@
                     "name": [
                         "RocketMan - Performance Mod"
                     ]
-                }              
+                },
+                "vr.missilegirl": {
+                    "name": [
+                        "Missile Girl - Performance Mod"
+                    ]
+                }
             },
             "loadAfter": {
                 "rim.job.world": {
@@ -7163,6 +7174,11 @@
                 "s16.core": {
                     "name": [
                         ""
+                    ]
+                },
+                "vr.missilegirl": {
+                    "name": [
+                        "Missile Girl - Performance Mod"
                     ]
                 }
             },
@@ -7732,10 +7748,14 @@
                 "krkr.rocketman": {
                     "comment": "Should be loaded as low as possible but before Rocketman",
                     "name": "RocketMan - Performance Mod"
+                },
+                "vr.missilegirl": {
+                    "comment": "Rocketman fork, Should be loaded as low as possible but before Rocketman or Missilegirl",
+                    "name": "Missile Girl - Performance Mod"
                 }
             },
             "loadBottom": {
-                "comment": "Should be loaded as low as possible but before Rocketman",
+                "comment": "Should be loaded as low as possible but before Rocketman or Missilegirl",
                 "value": true
             }
         },
@@ -7797,10 +7817,15 @@
             "loadBefore": {
                 "krkr.rocketman": {
                     "comment": [
-                        "Should always be loaded before rocketman"
+                        "Should always be loaded before rocketman or Missilegirl"
                     ],
                     "name": [
                         "RocketMan - Performance Mod"
+                    ]
+                },
+                "vr.missilegirl": {
+                    "name": [
+                        "Missile Girl - Performance Mod"
                     ]
                 }
             },
@@ -8507,6 +8532,11 @@
                 "krkr.rocketman": {
                     "name": [
                         "RocketMan - Performance Mod"
+                    ]
+                },
+                "vr.missilegirl": {
+                    "name": [
+                        "Missile Girl - Performance Mod"
                     ]
                 }
             },
@@ -11253,6 +11283,10 @@
                 "krkr.rocketman": {
                     "comment": "Rocketman always last!",
                     "name": "RocketMan - Performance Mod"
+                },
+                "vr.missilegirl": {
+                    "comment": "Rocketman fork, should always be last",
+                    "name": "Missile Girl - Performance Mod"
                 }
             },
             "loadBottom": {
@@ -11265,6 +11299,10 @@
                 "krkr.rocketman": {
                     "comment": "Rocketman always last!",
                     "name": "RocketMan - Performance Mod"
+                },
+                "vr.missilegirl": {
+                    "comment": "Rocketman fork, should always be last",
+                    "name": "Missile Girl - Performance Mod"
                 }
             },
             "loadBottom": {
@@ -11760,6 +11798,12 @@
                     "comment": "Fix schedule overriding",
                     "name": "Progression: Education"
                 }
+            }
+        },
+        "vr.missilegirl": {
+            "loadBottom": {
+                "comment": "Rocketman fork, should always be loaded last",
+                "value": true
             }
         }
     }
