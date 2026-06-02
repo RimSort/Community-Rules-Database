@@ -1,0 +1,23 @@
+name: QA
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate-json:
+    name: Validate JSON syntax
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Validate JSON syntax
+        run: python -m json.tool communityRules.json > /dev/null
