@@ -11812,6 +11812,14 @@
                 }
             }
         },
+        "stokes.simplehoodcape": {
+            "loadAfter": {
+                "vanillaexpanded.vtexe": {
+                    "comment": "Overwrite Vanilla Textures Expanded Textures for Cape and Hood",
+                    "name": "Vanilla Textures Expanded"
+                }
+            }
+        },
         "vr.missilegirl": {
             "loadBottom": {
                 "comment": "Rocketman fork, should always be loaded last",
