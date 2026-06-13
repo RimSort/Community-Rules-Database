@@ -345,6 +345,18 @@
                     "name": [
                         "Vanilla Textures Expanded - Variations"
                     ]
+                },
+                "nals.compatiblebody2": {
+                    "comment": "Other textures should overwrite this.",
+                    "name": "[NL] Compatible Body 2"
+                },
+                "nals.facialanimation": {
+                    "comment": "Other textures should overwrite this.",
+                    "name": "[NL] Facial Animation - WIP"
+                },
+                "nals.realisticbody": {
+                    "comment": "Other textures should overwrite this.",
+                    "name": "[NL] Realistic Body"
                 }
             }
         },
