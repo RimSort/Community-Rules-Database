@@ -11825,6 +11825,14 @@
                 "comment": "Rocketman fork, should always be loaded last",
                 "value": true
             }
+        },
+        "oark.ratkinfaction.geneexpand": {
+            "loadBefore": {
+                "sambucher.selectivebioregeneration": {
+                    "comment": "[OA] Ratkin Gene Expand located and patched the values of the Biosculpter Pod based on compClass. Selective Bioregeneration also modifies compClass. Therefore, the OA should be loaded first to ensure the patch succeeds.",
+                    "name": "Selective Bioregeneration"
+                }
+            }
         }
     }
 }
