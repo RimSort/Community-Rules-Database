@@ -11833,6 +11833,12 @@
                     "name": "Selective Bioregeneration"
                 }
             }
+        },
+        "rmk.translation": {
+            "loadBottom": {
+                "comment": "Translation mod, should always be loaded last",
+                "value": true
+            }
         }
     }
 }
