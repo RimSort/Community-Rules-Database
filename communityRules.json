@@ -1,5 +1,5 @@
 {
-    "timestamp": 1777950016,
+    "timestamp": 1789239946,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -10362,6 +10362,10 @@
                     "name": [
                         "Vanilla Weapons Expanded - Laser"
                     ]
+                },
+                "tro.soundscape.enhanced": {
+                    "comment": "Patch error for Shot_SniperRifle if loaded after RSE, as RSE replaces the entire sound definition",
+                    "name": "Rimworld: Soundscape Enhanced"
                 }
             }
         },
