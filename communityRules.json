@@ -11843,6 +11843,18 @@
                 "comment": "Translation mod, should always be loaded last",
                 "value": true
             }
+        },
+        "sierra.rt.vanillatraitcolors": {
+            "loadAfter": {
+                "ceteam.combatextended": {
+                    "comment": "Modifies trait lables, so any patches to specific traits will fail if applied afterwards",
+                    "name": "Combat Extended"
+                },
+                "mlie.badcanbegood": {
+                    "comment": "Modifies trait lables, so any patches to specific traits will fail if applied afterwards",
+                    "name": "Bad Can Be Good (Continued)"
+                }
+            }
         }
     }
 }
