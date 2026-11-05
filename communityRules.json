@@ -1,5 +1,5 @@
 {
-    "timestamp": 1789239946,
+    "timestamp": 1793851257,
     "rules": {
         "3tes.cgtwaa": {
             "loadAfter": {
@@ -3475,6 +3475,18 @@
                     ],
                     "name": [
                         "Common Sense"
+                    ]
+                }
+            }
+        },
+        "ilarion.bulkloadfortransporters": {
+            "loadAfter": {
+                "zzyxzz.pickupandhaulreworked": {
+                    "comment": [
+                        "Pick Up and Haul - Continued is a PUAH fork. Bulk Load works with it, but its About.xml only lists Mehni.PickUpAndHaul in loadAfter."
+                    ],
+                    "name": [
+                        "Pick Up and Haul - Continued"
                     ]
                 }
             }
